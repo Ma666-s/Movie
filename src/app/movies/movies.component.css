@@ -1,0 +1,39 @@
+
+#category
+{
+    transition: all 0.7s !important;
+    
+    
+}
+#category .mini-cat
+{
+    transform: translateY(0%);
+    transition: all 0.5s !important;
+}
+#category:hover .mini-cat
+{
+    transform: translateY(-25%);
+}
+.border:hover #category
+{
+    opacity: 1 !important;
+    
+}
+ #card
+ {
+    overflow: hidden;
+    
+ }
+ img
+ {
+    transition: all 1s !important;
+ }
+#card:hover img
+{
+   transform: scale(1.22);
+    
+}
+.text-bg-warning
+{
+    background-color: rgb(193, 163, 98) !important;
+}
